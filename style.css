@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 html {
   box-sizing: border-box;
 }
@@ -8,6 +10,7 @@ body {
   overflow-y: hidden;
   display: flex;
   align-items: center;
+  font-family: "Nunito", sans-serif;
 }
 
 /* Video Background */
@@ -79,6 +82,7 @@ input {
   border-radius: 20px;
   background: #fff;
   outline: none;
+  font-family: "Nunito", sans-serif;
 }
 
 /* Button */
@@ -93,6 +97,10 @@ button {
   color: white;
   cursor: pointer;
   outline: none;
+}
+
+button:hover {
+  filter: brightness(110%);
 }
 
 /* Countdown */
