@@ -15,7 +15,7 @@ const completeBtn = document.getElementById("complete-button");
 // Global Varaibles that will be resused
 let countdownTitle = "";
 let countdownDate = "";
-let countdownValue = Date;
+let countdownValue = new Date();
 let countdownActive;
 let savedCountdown;
 
